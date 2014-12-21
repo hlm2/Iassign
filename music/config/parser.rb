@@ -14,9 +14,9 @@ f.each do |line|
   puts year
   puts '/'
   
-  @films = Film.new
-  @film.title = title
+  @film = Film.new
+ @film.title = title
   @film.year = year
-  
+ # 
 end
 f.close
