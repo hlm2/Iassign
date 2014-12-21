@@ -1,0 +1,15 @@
+<h1>Music#index</h1>
+<p>Find me in app/views/music/index.html.erb</p>
+
+<table>                         
+  <tr>                          
+    <th>film</th>
+    <th>year</th>
+  </tr>
+<% @film.each do |data| %>      
+  <tr>
+    <td><%= data.title %></td>  
+    <td><%= data.year %></td>  
+  </tr>
+<% end %>                     
+</table>           

@@ -1,6 +1,6 @@
-class CreateMusic2s < ActiveRecord::Migration
+class CreateFilms < ActiveRecord::Migration
   def change
-    create_table :music2s do |t|
+    create_table :films do |t|
 
       t.timestamps
     end
