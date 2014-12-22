@@ -1,4 +1,4 @@
-class Film < ActiveRecord::Base
+class Films < ActiveRecord::Base
 	
 	def index
 	  

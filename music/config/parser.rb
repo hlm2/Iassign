@@ -2,7 +2,7 @@
 RAILS_ENV = 'development'
 require File.expand_path('../environment', __FILE__)
 
-f = File.open("films.txt")
+f = File.open("Films.txt")
 
 
 f.each do |line|
@@ -14,9 +14,9 @@ f.each do |line|
   puts year
   puts '/'
   
-  @film = Film.new
- @film.title = title
-  @film.year = year
+  @Films = Films.new
+ @Films.title = title
+  @Films.year = year
  # 
 end
 f.close

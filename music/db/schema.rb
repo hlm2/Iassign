@@ -16,25 +16,7 @@ ActiveRecord::Schema.define(version: 20141221022528) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "books", force: true do |t|
-    t.string   "control"
-    t.string   "author"
+  create_table "Films", force: true do |t|
     t.string   "title"
-    t.integer  "loans"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "music2s", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "users", force: true do |t|
-    t.string   "username"
-    t.string   "password"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-end
+    t.string   "year"
+   end

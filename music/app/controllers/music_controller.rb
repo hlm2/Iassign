@@ -1,7 +1,7 @@
 class MusicController < ApplicationController
   def index
 	  
-	  @film = Film.all
+	  @Films = Films.all
 	  
   end
 end
